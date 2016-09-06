@@ -1,0 +1,28 @@
+{
+  "name": "interval-projection-length",
+  "version": "0.1.0",
+  "description": "given any number of intervals this library returns the total length taking into consideration overlaps",
+  "main": "index.js",
+  "scripts": {
+    "test": "babel-node --presets es2015,stage-0 test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marian-cojoc-ro/interval-projection-length.git"
+  },
+  "keywords": [
+    "interval"
+  ],
+  "author": "Marian COJOC ro",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/marian-cojoc-ro/interval-projection-length/issues"
+  },
+  "homepage": "https://github.com/marian-cojoc-ro/interval-projection-length#readme",
+  "devDependencies": {
+    "babel-cli": "^6.14.0",
+    "babel-preset-es2015": "^6.14.0",
+    "babel-preset-stage-0": "^6.5.0",
+    "performance-now": "^0.2.0"
+  }
+}
